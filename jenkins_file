@@ -3,6 +3,6 @@ node {
       // Get some code from a GitHub repository
       git 'https://github.com/atefhares/fedora-post-install'
       sh 'echo This is test branch'
-      sh 'ls -la'
+      ls -la
    }
 }
