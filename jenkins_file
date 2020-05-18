@@ -1,7 +1,0 @@
-node {
-   stage('test_stage') { // for display purposes
-      // Get some code from a GitHub repository
-      git 'https://github.com/atefhares/fedora-post-install'
-      sh 'ls -la'
-   }
-}
